@@ -2,6 +2,7 @@
 
 Final Project: TenderPets App
 
+
 Proposal
 
 Main Purpose: The main purpose of the app is to match people with potential pets from their local shelters.
