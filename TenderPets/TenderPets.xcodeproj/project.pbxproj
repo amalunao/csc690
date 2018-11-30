@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8EB4245A219E5EC4007FEDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42459219E5EC4007FEDCF /* AppDelegate.swift */; };
-		8EB4245C219E5EC4007FEDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4245B219E5EC4007FEDCF /* ViewController.swift */; };
+		8EB4245C219E5EC4007FEDCF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4245B219E5EC4007FEDCF /* ChatViewController.swift */; };
 		8EB4245F219E5EC4007FEDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4245D219E5EC4007FEDCF /* Main.storyboard */; };
 		8EB42461219E5EC8007FEDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB42460219E5EC8007FEDCF /* Assets.xcassets */; };
 		8EB42464219E5EC8007FEDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */; };
 		8EB4246F219E5EC8007FEDCF /* TenderPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4246E219E5EC8007FEDCF /* TenderPetsTests.swift */; };
 		8EB4247A219E5EC8007FEDCF /* TenderPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */; };
+		E96F35DA21B0B5B600ED110D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F35D921B0B5B600ED110D /* MessageCell.swift */; };
+		E96F35DC21B0B5C100ED110D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F35DB21B0B5C100ED110D /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		8EB42456219E5EC4007FEDCF /* TenderPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB42459219E5EC4007FEDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EB4245B219E5EC4007FEDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EB4245B219E5EC4007FEDCF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8EB4245E219E5EC4007FEDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EB42460219E5EC8007FEDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB42463219E5EC8007FEDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		8EB42475219E5EC8007FEDCF /* TenderPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsUITests.swift; sourceTree = "<group>"; };
 		8EB4247B219E5EC8007FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96F35D921B0B5B600ED110D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		E96F35DB21B0B5C100ED110D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				8EB42459219E5EC4007FEDCF /* AppDelegate.swift */,
-				8EB4245B219E5EC4007FEDCF /* ViewController.swift */,
+				8EB4245B219E5EC4007FEDCF /* ChatViewController.swift */,
+				E96F35D921B0B5B600ED110D /* MessageCell.swift */,
+				E96F35DB21B0B5C100ED110D /* Message.swift */,
 				8EB4245D219E5EC4007FEDCF /* Main.storyboard */,
 				8EB42460219E5EC8007FEDCF /* Assets.xcassets */,
 				8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB4245C219E5EC4007FEDCF /* ViewController.swift in Sources */,
+				8EB4245C219E5EC4007FEDCF /* ChatViewController.swift in Sources */,
+				E96F35DC21B0B5C100ED110D /* Message.swift in Sources */,
 				8EB4245A219E5EC4007FEDCF /* AppDelegate.swift in Sources */,
+				E96F35DA21B0B5B600ED110D /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
