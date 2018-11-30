@@ -14,7 +14,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var textField: UITextField!
     
-    var messageList: [Message] = [Message(newText: "Woof!", newNum: 0), Message(newText: "Hello!", newNum: 1)]
+    var messageList: [Message] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
