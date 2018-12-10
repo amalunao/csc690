@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8DEAF6D7E3262A1F71E4C7 /* Pods_TenderPetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59BC27A8D012360006FEE49 /* Pods_TenderPetsUITests.framework */; };
+		6256ED1D21AE638900D7EA77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6256ED1C21AE638900D7EA77 /* GoogleService-Info.plist */; };
+		7705D064D0C37249693E5BC7 /* Pods_TenderPetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1143524C19E55B939CA009 /* Pods_TenderPetsTests.framework */; };
 		8EB4245A219E5EC4007FEDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42459219E5EC4007FEDCF /* AppDelegate.swift */; };
 		8EB4245C219E5EC4007FEDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4245B219E5EC4007FEDCF /* ViewController.swift */; };
 		8EB4245F219E5EC4007FEDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4245D219E5EC4007FEDCF /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		8EB42464219E5EC8007FEDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */; };
 		8EB4246F219E5EC8007FEDCF /* TenderPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4246E219E5EC8007FEDCF /* TenderPetsTests.swift */; };
 		8EB4247A219E5EC8007FEDCF /* TenderPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */; };
+		905FD2D0020D5D6FD5187057 /* Pods_TenderPets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256BCD428E16AF9D0C871894 /* Pods_TenderPets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AEDEE7E2EEC90EE716F65C /* Pods-TenderPetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPetsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPetsUITests/Pods-TenderPetsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		256BCD428E16AF9D0C871894 /* Pods_TenderPets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenderPets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6256ED1C21AE638900D7EA77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		744E702485217458240F842C /* Pods-TenderPets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPets.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPets/Pods-TenderPets.release.xcconfig"; sourceTree = "<group>"; };
+		786235D5E494FC1471A14BC8 /* Pods-TenderPetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPetsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPetsUITests/Pods-TenderPetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EB42456219E5EC4007FEDCF /* TenderPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB42459219E5EC4007FEDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB4245B219E5EC4007FEDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		8EB42475219E5EC8007FEDCF /* TenderPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsUITests.swift; sourceTree = "<group>"; };
 		8EB4247B219E5EC8007FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1143524C19E55B939CA009 /* Pods_TenderPetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenderPetsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59BC27A8D012360006FEE49 /* Pods_TenderPetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenderPetsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF619FAE068C708D55C88751 /* Pods-TenderPets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPets/Pods-TenderPets.debug.xcconfig"; sourceTree = "<group>"; };
+		D86A119A38B0480CA841C796 /* Pods-TenderPetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPetsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPetsTests/Pods-TenderPetsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F91306631E4CD15B1C511BC8 /* Pods-TenderPetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenderPetsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenderPetsTests/Pods-TenderPetsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905FD2D0020D5D6FD5187057 /* Pods_TenderPets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7705D064D0C37249693E5BC7 /* Pods_TenderPetsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8DEAF6D7E3262A1F71E4C7 /* Pods_TenderPetsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5F1A892C81E1679F7BDE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				256BCD428E16AF9D0C871894 /* Pods_TenderPets.framework */,
+				BF1143524C19E55B939CA009 /* Pods_TenderPetsTests.framework */,
+				C59BC27A8D012360006FEE49 /* Pods_TenderPetsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85ABAC7CE7632372351C6F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF619FAE068C708D55C88751 /* Pods-TenderPets.debug.xcconfig */,
+				744E702485217458240F842C /* Pods-TenderPets.release.xcconfig */,
+				D86A119A38B0480CA841C796 /* Pods-TenderPetsTests.debug.xcconfig */,
+				F91306631E4CD15B1C511BC8 /* Pods-TenderPetsTests.release.xcconfig */,
+				786235D5E494FC1471A14BC8 /* Pods-TenderPetsUITests.debug.xcconfig */,
+				01AEDEE7E2EEC90EE716F65C /* Pods-TenderPetsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8EB4244D219E5EC4007FEDCF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				8EB4246D219E5EC8007FEDCF /* TenderPetsTests */,
 				8EB42478219E5EC8007FEDCF /* TenderPetsUITests */,
 				8EB42457219E5EC4007FEDCF /* Products */,
+				85ABAC7CE7632372351C6F5A /* Pods */,
+				0B5F1A892C81E1679F7BDE6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				8EB42460219E5EC8007FEDCF /* Assets.xcassets */,
 				8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */,
 				8EB42465219E5EC8007FEDCF /* Info.plist */,
+				6256ED1C21AE638900D7EA77 /* GoogleService-Info.plist */,
 			);
 			path = TenderPets;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB4247E219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPets" */;
 			buildPhases = (
+				3825852CE3574FEB690AB523 /* [CP] Check Pods Manifest.lock */,
 				8EB42452219E5EC4007FEDCF /* Sources */,
 				8EB42453219E5EC4007FEDCF /* Frameworks */,
 				8EB42454219E5EC4007FEDCF /* Resources */,
+				FEAA20A2D7F69E217BE96DD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB42481219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsTests" */;
 			buildPhases = (
+				6835A2D8718A85C6536AC6C6 /* [CP] Check Pods Manifest.lock */,
 				8EB42466219E5EC8007FEDCF /* Sources */,
 				8EB42467219E5EC8007FEDCF /* Frameworks */,
 				8EB42468219E5EC8007FEDCF /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB42484219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsUITests" */;
 			buildPhases = (
+				E2D26AF0FF4A496F7C9EBE59 /* [CP] Check Pods Manifest.lock */,
 				8EB42471219E5EC8007FEDCF /* Sources */,
 				8EB42472219E5EC8007FEDCF /* Frameworks */,
 				8EB42473219E5EC8007FEDCF /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB42464219E5EC8007FEDCF /* LaunchScreen.storyboard in Resources */,
+				6256ED1D21AE638900D7EA77 /* GoogleService-Info.plist in Resources */,
 				8EB42461219E5EC8007FEDCF /* Assets.xcassets in Resources */,
 				8EB4245F219E5EC4007FEDCF /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3825852CE3574FEB690AB523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TenderPets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6835A2D8718A85C6536AC6C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TenderPetsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D26AF0FF4A496F7C9EBE59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TenderPetsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAA20A2D7F69E217BE96DD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TenderPets/Pods-TenderPets-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenderPets/Pods-TenderPets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EB42452219E5EC4007FEDCF /* Sources */ = {
@@ -428,6 +573,7 @@
 		};
 		8EB4247F219E5EC8007FEDCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF619FAE068C708D55C88751 /* Pods-TenderPets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +591,7 @@
 		};
 		8EB42480219E5EC8007FEDCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744E702485217458240F842C /* Pods-TenderPets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +609,7 @@
 		};
 		8EB42482219E5EC8007FEDCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86A119A38B0480CA841C796 /* Pods-TenderPetsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +630,7 @@
 		};
 		8EB42483219E5EC8007FEDCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91306631E4CD15B1C511BC8 /* Pods-TenderPetsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +651,7 @@
 		};
 		8EB42485219E5EC8007FEDCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786235D5E494FC1471A14BC8 /* Pods-TenderPetsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +671,7 @@
 		};
 		8EB42486219E5EC8007FEDCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AEDEE7E2EEC90EE716F65C /* Pods-TenderPetsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
