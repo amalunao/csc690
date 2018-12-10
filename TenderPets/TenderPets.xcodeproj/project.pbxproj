@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EB4245A219E5EC4007FEDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42459219E5EC4007FEDCF /* AppDelegate.swift */; };
-		8EB4245C219E5EC4007FEDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4245B219E5EC4007FEDCF /* ViewController.swift */; };
-		8EB4245F219E5EC4007FEDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4245D219E5EC4007FEDCF /* Main.storyboard */; };
-		8EB42461219E5EC8007FEDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB42460219E5EC8007FEDCF /* Assets.xcassets */; };
-		8EB42464219E5EC8007FEDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */; };
-		8EB4246F219E5EC8007FEDCF /* TenderPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4246E219E5EC8007FEDCF /* TenderPetsTests.swift */; };
-		8EB4247A219E5EC8007FEDCF /* TenderPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */; };
+		8EB89A5A21AF0D7300436322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB89A5921AF0D7300436322 /* AppDelegate.swift */; };
+		8EB89A5C21AF0D7300436322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB89A5B21AF0D7300436322 /* ViewController.swift */; };
+		8EB89A5F21AF0D7300436322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB89A5D21AF0D7300436322 /* Main.storyboard */; };
+		8EB89A6121AF0D7D00436322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB89A6021AF0D7D00436322 /* Assets.xcassets */; };
+		8EB89A6421AF0D7D00436322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB89A6221AF0D7D00436322 /* LaunchScreen.storyboard */; };
+		8EB89A6F21AF0D7D00436322 /* TenderPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB89A6E21AF0D7D00436322 /* TenderPetsTests.swift */; };
+		8EB89A7A21AF0D7D00436322 /* TenderPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB89A7921AF0D7D00436322 /* TenderPetsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EB4246B219E5EC8007FEDCF /* PBXContainerItemProxy */ = {
+		8EB89A6B21AF0D7D00436322 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8EB4244E219E5EC4007FEDCF /* Project object */;
+			containerPortal = 8EB89A4E21AF0D7300436322 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EB42455219E5EC4007FEDCF;
+			remoteGlobalIDString = 8EB89A5521AF0D7300436322;
 			remoteInfo = TenderPets;
 		};
-		8EB42476219E5EC8007FEDCF /* PBXContainerItemProxy */ = {
+		8EB89A7621AF0D7D00436322 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8EB4244E219E5EC4007FEDCF /* Project object */;
+			containerPortal = 8EB89A4E21AF0D7300436322 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EB42455219E5EC4007FEDCF;
+			remoteGlobalIDString = 8EB89A5521AF0D7300436322;
 			remoteInfo = TenderPets;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8EB42456219E5EC4007FEDCF /* TenderPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB42459219E5EC4007FEDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EB4245B219E5EC4007FEDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EB4245E219E5EC4007FEDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EB42460219E5EC8007FEDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EB42463219E5EC8007FEDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EB42465219E5EC8007FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EB4246A219E5EC8007FEDCF /* TenderPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB4246E219E5EC8007FEDCF /* TenderPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsTests.swift; sourceTree = "<group>"; };
-		8EB42470219E5EC8007FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EB42475219E5EC8007FEDCF /* TenderPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsUITests.swift; sourceTree = "<group>"; };
-		8EB4247B219E5EC8007FEDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB89A5621AF0D7300436322 /* TenderPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB89A5921AF0D7300436322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EB89A5B21AF0D7300436322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EB89A5E21AF0D7300436322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB89A6021AF0D7D00436322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EB89A6321AF0D7D00436322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EB89A6521AF0D7D00436322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB89A6A21AF0D7D00436322 /* TenderPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB89A6E21AF0D7D00436322 /* TenderPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsTests.swift; sourceTree = "<group>"; };
+		8EB89A7021AF0D7D00436322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB89A7521AF0D7D00436322 /* TenderPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenderPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB89A7921AF0D7D00436322 /* TenderPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderPetsUITests.swift; sourceTree = "<group>"; };
+		8EB89A7B21AF0D7D00436322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EB42453219E5EC4007FEDCF /* Frameworks */ = {
+		8EB89A5321AF0D7300436322 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42467219E5EC8007FEDCF /* Frameworks */ = {
+		8EB89A6721AF0D7D00436322 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42472219E5EC8007FEDCF /* Frameworks */ = {
+		8EB89A7221AF0D7D00436322 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8EB4244D219E5EC4007FEDCF = {
+		8EB89A4D21AF0D7300436322 = {
 			isa = PBXGroup;
 			children = (
-				8EB42458219E5EC4007FEDCF /* TenderPets */,
-				8EB4246D219E5EC8007FEDCF /* TenderPetsTests */,
-				8EB42478219E5EC8007FEDCF /* TenderPetsUITests */,
-				8EB42457219E5EC4007FEDCF /* Products */,
+				8EB89A5821AF0D7300436322 /* TenderPets */,
+				8EB89A6D21AF0D7D00436322 /* TenderPetsTests */,
+				8EB89A7821AF0D7D00436322 /* TenderPetsUITests */,
+				8EB89A5721AF0D7300436322 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8EB42457219E5EC4007FEDCF /* Products */ = {
+		8EB89A5721AF0D7300436322 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EB42456219E5EC4007FEDCF /* TenderPets.app */,
-				8EB4246A219E5EC8007FEDCF /* TenderPetsTests.xctest */,
-				8EB42475219E5EC8007FEDCF /* TenderPetsUITests.xctest */,
+				8EB89A5621AF0D7300436322 /* TenderPets.app */,
+				8EB89A6A21AF0D7D00436322 /* TenderPetsTests.xctest */,
+				8EB89A7521AF0D7D00436322 /* TenderPetsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EB42458219E5EC4007FEDCF /* TenderPets */ = {
+		8EB89A5821AF0D7300436322 /* TenderPets */ = {
 			isa = PBXGroup;
 			children = (
-				8EB42459219E5EC4007FEDCF /* AppDelegate.swift */,
-				8EB4245B219E5EC4007FEDCF /* ViewController.swift */,
-				8EB4245D219E5EC4007FEDCF /* Main.storyboard */,
-				8EB42460219E5EC8007FEDCF /* Assets.xcassets */,
-				8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */,
-				8EB42465219E5EC8007FEDCF /* Info.plist */,
+				8EB89A5921AF0D7300436322 /* AppDelegate.swift */,
+				8EB89A5B21AF0D7300436322 /* ViewController.swift */,
+				8EB89A5D21AF0D7300436322 /* Main.storyboard */,
+				8EB89A6021AF0D7D00436322 /* Assets.xcassets */,
+				8EB89A6221AF0D7D00436322 /* LaunchScreen.storyboard */,
+				8EB89A6521AF0D7D00436322 /* Info.plist */,
 			);
 			path = TenderPets;
 			sourceTree = "<group>";
 		};
-		8EB4246D219E5EC8007FEDCF /* TenderPetsTests */ = {
+		8EB89A6D21AF0D7D00436322 /* TenderPetsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8EB4246E219E5EC8007FEDCF /* TenderPetsTests.swift */,
-				8EB42470219E5EC8007FEDCF /* Info.plist */,
+				8EB89A6E21AF0D7D00436322 /* TenderPetsTests.swift */,
+				8EB89A7021AF0D7D00436322 /* Info.plist */,
 			);
 			path = TenderPetsTests;
 			sourceTree = "<group>";
 		};
-		8EB42478219E5EC8007FEDCF /* TenderPetsUITests */ = {
+		8EB89A7821AF0D7D00436322 /* TenderPetsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8EB42479219E5EC8007FEDCF /* TenderPetsUITests.swift */,
-				8EB4247B219E5EC8007FEDCF /* Info.plist */,
+				8EB89A7921AF0D7D00436322 /* TenderPetsUITests.swift */,
+				8EB89A7B21AF0D7D00436322 /* Info.plist */,
 			);
 			path = TenderPetsUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EB42455219E5EC4007FEDCF /* TenderPets */ = {
+		8EB89A5521AF0D7300436322 /* TenderPets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EB4247E219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPets" */;
+			buildConfigurationList = 8EB89A7E21AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPets" */;
 			buildPhases = (
-				8EB42452219E5EC4007FEDCF /* Sources */,
-				8EB42453219E5EC4007FEDCF /* Frameworks */,
-				8EB42454219E5EC4007FEDCF /* Resources */,
+				8EB89A5221AF0D7300436322 /* Sources */,
+				8EB89A5321AF0D7300436322 /* Frameworks */,
+				8EB89A5421AF0D7300436322 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +142,69 @@
 			);
 			name = TenderPets;
 			productName = TenderPets;
-			productReference = 8EB42456219E5EC4007FEDCF /* TenderPets.app */;
+			productReference = 8EB89A5621AF0D7300436322 /* TenderPets.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8EB42469219E5EC8007FEDCF /* TenderPetsTests */ = {
+		8EB89A6921AF0D7D00436322 /* TenderPetsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EB42481219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsTests" */;
+			buildConfigurationList = 8EB89A8121AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPetsTests" */;
 			buildPhases = (
-				8EB42466219E5EC8007FEDCF /* Sources */,
-				8EB42467219E5EC8007FEDCF /* Frameworks */,
-				8EB42468219E5EC8007FEDCF /* Resources */,
+				8EB89A6621AF0D7D00436322 /* Sources */,
+				8EB89A6721AF0D7D00436322 /* Frameworks */,
+				8EB89A6821AF0D7D00436322 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8EB4246C219E5EC8007FEDCF /* PBXTargetDependency */,
+				8EB89A6C21AF0D7D00436322 /* PBXTargetDependency */,
 			);
 			name = TenderPetsTests;
 			productName = TenderPetsTests;
-			productReference = 8EB4246A219E5EC8007FEDCF /* TenderPetsTests.xctest */;
+			productReference = 8EB89A6A21AF0D7D00436322 /* TenderPetsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8EB42474219E5EC8007FEDCF /* TenderPetsUITests */ = {
+		8EB89A7421AF0D7D00436322 /* TenderPetsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EB42484219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsUITests" */;
+			buildConfigurationList = 8EB89A8421AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPetsUITests" */;
 			buildPhases = (
-				8EB42471219E5EC8007FEDCF /* Sources */,
-				8EB42472219E5EC8007FEDCF /* Frameworks */,
-				8EB42473219E5EC8007FEDCF /* Resources */,
+				8EB89A7121AF0D7D00436322 /* Sources */,
+				8EB89A7221AF0D7D00436322 /* Frameworks */,
+				8EB89A7321AF0D7D00436322 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8EB42477219E5EC8007FEDCF /* PBXTargetDependency */,
+				8EB89A7721AF0D7D00436322 /* PBXTargetDependency */,
 			);
 			name = TenderPetsUITests;
 			productName = TenderPetsUITests;
-			productReference = 8EB42475219E5EC8007FEDCF /* TenderPetsUITests.xctest */;
+			productReference = 8EB89A7521AF0D7D00436322 /* TenderPetsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8EB4244E219E5EC4007FEDCF /* Project object */ = {
+		8EB89A4E21AF0D7300436322 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Alyssa Malunao";
 				TargetAttributes = {
-					8EB42455219E5EC4007FEDCF = {
+					8EB89A5521AF0D7300436322 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					8EB42469219E5EC8007FEDCF = {
+					8EB89A6921AF0D7D00436322 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 8EB42455219E5EC4007FEDCF;
+						TestTargetID = 8EB89A5521AF0D7300436322;
 					};
-					8EB42474219E5EC8007FEDCF = {
+					8EB89A7421AF0D7D00436322 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 8EB42455219E5EC4007FEDCF;
+						TestTargetID = 8EB89A5521AF0D7300436322;
 					};
 				};
 			};
-			buildConfigurationList = 8EB42451219E5EC4007FEDCF /* Build configuration list for PBXProject "TenderPets" */;
+			buildConfigurationList = 8EB89A5121AF0D7300436322 /* Build configuration list for PBXProject "TenderPets" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8EB4244D219E5EC4007FEDCF;
-			productRefGroup = 8EB42457219E5EC4007FEDCF /* Products */;
+			mainGroup = 8EB89A4D21AF0D7300436322;
+			productRefGroup = 8EB89A5721AF0D7300436322 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EB42455219E5EC4007FEDCF /* TenderPets */,
-				8EB42469219E5EC8007FEDCF /* TenderPetsTests */,
-				8EB42474219E5EC8007FEDCF /* TenderPetsUITests */,
+				8EB89A5521AF0D7300436322 /* TenderPets */,
+				8EB89A6921AF0D7D00436322 /* TenderPetsTests */,
+				8EB89A7421AF0D7D00436322 /* TenderPetsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8EB42454219E5EC4007FEDCF /* Resources */ = {
+		8EB89A5421AF0D7300436322 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB42464219E5EC8007FEDCF /* LaunchScreen.storyboard in Resources */,
-				8EB42461219E5EC8007FEDCF /* Assets.xcassets in Resources */,
-				8EB4245F219E5EC4007FEDCF /* Main.storyboard in Resources */,
+				8EB89A6421AF0D7D00436322 /* LaunchScreen.storyboard in Resources */,
+				8EB89A6121AF0D7D00436322 /* Assets.xcassets in Resources */,
+				8EB89A5F21AF0D7300436322 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42468219E5EC8007FEDCF /* Resources */ = {
+		8EB89A6821AF0D7D00436322 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42473219E5EC8007FEDCF /* Resources */ = {
+		8EB89A7321AF0D7D00436322 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8EB42452219E5EC4007FEDCF /* Sources */ = {
+		8EB89A5221AF0D7300436322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB4245C219E5EC4007FEDCF /* ViewController.swift in Sources */,
-				8EB4245A219E5EC4007FEDCF /* AppDelegate.swift in Sources */,
+				8EB89A5C21AF0D7300436322 /* ViewController.swift in Sources */,
+				8EB89A5A21AF0D7300436322 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42466219E5EC8007FEDCF /* Sources */ = {
+		8EB89A6621AF0D7D00436322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB4246F219E5EC8007FEDCF /* TenderPetsTests.swift in Sources */,
+				8EB89A6F21AF0D7D00436322 /* TenderPetsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB42471219E5EC8007FEDCF /* Sources */ = {
+		8EB89A7121AF0D7D00436322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB4247A219E5EC8007FEDCF /* TenderPetsUITests.swift in Sources */,
+				8EB89A7A21AF0D7D00436322 /* TenderPetsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8EB4246C219E5EC8007FEDCF /* PBXTargetDependency */ = {
+		8EB89A6C21AF0D7D00436322 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EB42455219E5EC4007FEDCF /* TenderPets */;
-			targetProxy = 8EB4246B219E5EC8007FEDCF /* PBXContainerItemProxy */;
+			target = 8EB89A5521AF0D7300436322 /* TenderPets */;
+			targetProxy = 8EB89A6B21AF0D7D00436322 /* PBXContainerItemProxy */;
 		};
-		8EB42477219E5EC8007FEDCF /* PBXTargetDependency */ = {
+		8EB89A7721AF0D7D00436322 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EB42455219E5EC4007FEDCF /* TenderPets */;
-			targetProxy = 8EB42476219E5EC8007FEDCF /* PBXContainerItemProxy */;
+			target = 8EB89A5521AF0D7300436322 /* TenderPets */;
+			targetProxy = 8EB89A7621AF0D7D00436322 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8EB4245D219E5EC4007FEDCF /* Main.storyboard */ = {
+		8EB89A5D21AF0D7300436322 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EB4245E219E5EC4007FEDCF /* Base */,
+				8EB89A5E21AF0D7300436322 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8EB42462219E5EC8007FEDCF /* LaunchScreen.storyboard */ = {
+		8EB89A6221AF0D7D00436322 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EB42463219E5EC8007FEDCF /* Base */,
+				8EB89A6321AF0D7D00436322 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8EB4247C219E5EC8007FEDCF /* Debug */ = {
+		8EB89A7C21AF0D7D00436322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		8EB4247D219E5EC8007FEDCF /* Release */ = {
+		8EB89A7D21AF0D7D00436322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +426,7 @@
 			};
 			name = Release;
 		};
-		8EB4247F219E5EC8007FEDCF /* Debug */ = {
+		8EB89A7F21AF0D7D00436322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		8EB42480219E5EC8007FEDCF /* Release */ = {
+		8EB89A8021AF0D7D00436322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +460,7 @@
 			};
 			name = Release;
 		};
-		8EB42482219E5EC8007FEDCF /* Debug */ = {
+		8EB89A8221AF0D7D00436322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -480,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		8EB42483219E5EC8007FEDCF /* Release */ = {
+		8EB89A8321AF0D7D00436322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -500,7 +500,7 @@
 			};
 			name = Release;
 		};
-		8EB42485219E5EC8007FEDCF /* Debug */ = {
+		8EB89A8521AF0D7D00436322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		8EB42486219E5EC8007FEDCF /* Release */ = {
+		8EB89A8621AF0D7D00436322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,43 +541,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EB42451219E5EC4007FEDCF /* Build configuration list for PBXProject "TenderPets" */ = {
+		8EB89A5121AF0D7300436322 /* Build configuration list for PBXProject "TenderPets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EB4247C219E5EC8007FEDCF /* Debug */,
-				8EB4247D219E5EC8007FEDCF /* Release */,
+				8EB89A7C21AF0D7D00436322 /* Debug */,
+				8EB89A7D21AF0D7D00436322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EB4247E219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPets" */ = {
+		8EB89A7E21AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EB4247F219E5EC8007FEDCF /* Debug */,
-				8EB42480219E5EC8007FEDCF /* Release */,
+				8EB89A7F21AF0D7D00436322 /* Debug */,
+				8EB89A8021AF0D7D00436322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EB42481219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsTests" */ = {
+		8EB89A8121AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPetsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EB42482219E5EC8007FEDCF /* Debug */,
-				8EB42483219E5EC8007FEDCF /* Release */,
+				8EB89A8221AF0D7D00436322 /* Debug */,
+				8EB89A8321AF0D7D00436322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EB42484219E5EC8007FEDCF /* Build configuration list for PBXNativeTarget "TenderPetsUITests" */ = {
+		8EB89A8421AF0D7D00436322 /* Build configuration list for PBXNativeTarget "TenderPetsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EB42485219E5EC8007FEDCF /* Debug */,
-				8EB42486219E5EC8007FEDCF /* Release */,
+				8EB89A8521AF0D7D00436322 /* Debug */,
+				8EB89A8621AF0D7D00436322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8EB4244E219E5EC4007FEDCF /* Project object */;
+	rootObject = 8EB89A4E21AF0D7300436322 /* Project object */;
 }
