@@ -1,0 +1,6 @@
+framework module Pods_TenderPets {
+  umbrella header "Pods-TenderPets-umbrella.h"
+
+  export *
+  module * { export * }
+}
